@@ -1,14 +1,8 @@
-name: example-environment
+name: jupyter-c-kernel
 channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - pip
+  - pip:
+    - ckernel
